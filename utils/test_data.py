@@ -8,7 +8,7 @@ import os
 from PIL import Image
 
 
-class TestSet(object):
+class TestSet(object):##
     def __init__(self, test_dir, test_transform):
         self.test_dir = test_dir
         self.test_transform = test_transform
