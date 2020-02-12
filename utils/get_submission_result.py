@@ -9,7 +9,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 
 
-def predict_result(model, test_data, use_gpu):
+def predict_result(model, test_data, use_gpu):###
     img_id = list()
     prob_result = list()
     model.eval()
