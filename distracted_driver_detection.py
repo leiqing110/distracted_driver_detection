@@ -193,4 +193,4 @@ def train(model, train_data, valid_data, max_epoch, criterion, optimizer):
 # 用作调参使用
 if __name__ == '__main__':
     train(model, train_data, valid_data, max_epoch, criterion, optimizer)
-    torch.save(model.state_dict(), './save_model.pth')#保存训练好的
+    torch.save(model.state_dict(), './save_model.pth')#保存训练好模型的
